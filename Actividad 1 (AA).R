@@ -12,7 +12,6 @@ columnas_a_borrar <- which((colm.factor != valor))
 housing_train[,columnas_a_borrar] <- NULL
 #obtenemos el valor mínimo, el máximo, la mediana y la media.
 summary(housing_train)
-housing_train <- data.frame(columnas_a_borrar,)
 
 #DE LAS VARIABLES CATEGÓRICAS, LISTAR LAS DIFERENTES CATEGORÍAS Y HALLAR LA 
 #FRECUENCIA DE CADA UNA DE ELLAS. 
